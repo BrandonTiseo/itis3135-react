@@ -1,0 +1,55 @@
+import introPhoto from './assets/brandon_tiseo.jpg'; 
+
+export default function Introduction(){
+    return (
+        <>
+            <h2>Introduction</h2>
+            <h3>Brandon Tiseo || Bold Turtle</h3>
+            <figure>
+                <img src={introPhoto} alt="A photo of Brandon Tiseo"></img>
+                <figcaption><i>At my internship, July 2025.</i></figcaption>
+            </figure>
+            <p>Hello! My name is Brandon Tiseo and I am a Junior computer science major, concentrating in software development, and minoring in computer engineering. I am 20 years old and was born in Long Island, New York but I have lived in the Charlotte area for most of my life. After graduating I plan to work either as a software developer or in IT.</p>
+            <ul>
+                <li>
+                    <b>Personal Background: </b>
+                    My hobbies include cooking/baking, video games, reading, drawing, and playing an instrument.
+                </li>
+                <li>
+                    <b>Professional Background: </b>
+                    I began my career in computer science three years ago in high school where I was first exposed to Python. Since then, I've participated in several hackathons focused in various areas of computing, and have completed an internship at INSP, LLC as an IT intern.
+                </li>
+                <li>
+                    <b>Academic Background: </b>
+                    I am currently a Junior majoring in computer science with a concentration in software development and a minor in computer engineering. I plan to graduate in Spring, 2027.
+                </li>
+                <li>
+                    <b>Background in Frontend Web Development: </b>
+                    I am very new to web development. The only experience I have is taking online lessons through websites like FreeCodeCamp and CodeDex.
+                </li>
+                <li><b>Primary Computer: </b>Custom-built, Windows 11, desktop, apartment/home.</li>
+                <li>
+                    <b>Course I'm Taking, & Why: </b>
+                    <ul>
+                        <li>
+                            <b>ITIS 3166</b> - Backend Web Development: I wanted to take backend and frontend web development in the same semester and I am very interested in web development.
+                        </li>
+                        <li><b>ITSC 3688</b> - Computers & Their Impact on Society: Required course for my major.</li>
+                        <li>
+                            <b>ITIS 3135</b> - Frontend Web Development: I wanted to take backend and frontend web development in the same semester and I am very interested in web development.
+                        </li>
+                        <li><b>ECGR 2181</b> - Logic System Design: It is a part of my computer engineering minor.</li>
+                        <li>
+                            <b>MUPF 1113</b> - Symphonic Band: I am very passionate about playing an instrument and wanted to pursue playing in a band again.
+                        </li>
+                    </ul>
+                </li>
+                <li><b>Funny/Interesting Item to Remember me by: </b> I have a pet pig named Arnold.</li>
+                <li><b>I'd also like to Share: </b> I've lived in Charlotte, NC most of my life but I was born in Long Island, NY!</li>
+            </ul>
+            <p><q><em>But in the end it is only a passing thing, this shadow; even darkness must pass.</em></q></p>
+            <p><em>- J.R.R Tolkein, The Lord of the Rings</em></p>
+        </>
+    );
+
+}

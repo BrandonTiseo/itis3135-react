@@ -1,0 +1,22 @@
+export default function Footer(){
+    return(
+    <footer>
+        <nav>
+            <a href="https://webpages.charlotte.edu/btiseo/">CLT website</a> 
+            |
+            <a href="https://github.com/BrandonTiseo">GitHub</a> 
+            |
+            <a href="https://brandontiseo.github.io/">Github.io</a> 
+            |
+            <a href="https://brandontiseo.github.io/itis3135/">itis3135.io</a>
+            |
+            <a href="https://www.freecodecamp.org/brandontiseo">FreeCodeCamp</a>
+            |
+            <a href="https://www.codecademy.com/profiles/BrandonTiseo">Codecadamy</a>
+            |
+            <a href="https://www.linkedin.com/in/brandon-tiseo/">LinkedIn</a> 
+        </nav>
+        <p class="designed-by">Designed by <a href="./tiseoandco.com/">Tiseo & Co.</a> &copy;2025</p>
+    </footer>
+    );
+}
