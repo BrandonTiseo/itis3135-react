@@ -3,6 +3,7 @@ import introPhoto from './assets/brandon_tiseo.jpg';
 export default function Introduction(){
     return (
         <>
+            <title>Brandon Tiseo's boldTurtle || ITIS3135 Introduction</title>
             <h2>Introduction</h2>
             <h3>Brandon Tiseo || Bold Turtle</h3>
             <figure>
